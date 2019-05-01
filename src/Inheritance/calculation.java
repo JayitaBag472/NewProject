@@ -1,0 +1,18 @@
+package Inheritance;
+
+public class calculation {
+	
+	int z= 0;
+	
+	public void addition(int x, int y){
+		z= x+y;
+		System.out.println("addition"+z);
+	}
+	public void subtraction(int x, int y){
+		z= x-y;
+		
+		System.out.println("subtraction"+z);
+	}
+	
+
+}
